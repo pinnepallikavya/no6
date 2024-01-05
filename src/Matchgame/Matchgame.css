@@ -1,0 +1,35 @@
+/* MatchGame.css */
+.match-game-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+
+.timer-container img {
+  margin-right: 10px;
+}
+
+.game-body {
+  flex-grow: 1;
+}
+

@@ -1,0 +1,21 @@
+/* ThumbnailsList.css */
+.thumbnails-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.thumbnail {
+  background-color: #ffffff;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
